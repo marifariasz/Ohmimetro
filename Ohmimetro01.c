@@ -37,7 +37,7 @@
  void calcular_cores_resistor(float resistencia, char* banda1, char* banda2, char* multiplicador) {
      int digito1 = 0, digito2 = 0, mult = 0;
  
-     // Faixas baseadas na resistência calculada (série E24, ±10% tolerância, 560Ω a 100kΩ)
+     // Faixas baseadas na resistência calculada (série E24, ±10% tolerância, 510Ω a 100kΩ)
      if (resistencia < 540){ // ~510Ω
          digito1 = 5; digito2 = 1; mult = 1;
      }else if (resistencia < 620) { // ~560Ω
