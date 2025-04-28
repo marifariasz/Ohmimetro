@@ -1,4 +1,4 @@
-# Interface Homem-Máquina com Display OLED - RP2040 (BitDogLab)
+# Ohmimetro com Display OLED - RP2040 (BitDogLab)
 
 # Descrição
 
